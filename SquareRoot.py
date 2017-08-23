@@ -13,10 +13,10 @@ def principalsquareroot(x):  # the positive number of the square root
     elif x > 0:
         g = x / 2  # got to start somewhere, so why not half the number
         b = x / g  # just to be certain that 2 was not chosen and to start the while loop
-        while g != b:  # this loop checks if the number is the square root of the function
+        while g != b and b <= g:  # this loop checks if the number is the square root of the function and stops it from over looping
             b = x / g  # create variable b = x/g
             g = (g + b) / 2  # find the new number by averaging a and b
-            return g
+        return g
     else:  # this needs to calculate imaginary numbers
         g = principalsquareroot(-x)
         return str(g) + "i "
@@ -30,9 +30,11 @@ def negativesquareroot(x):  # to get the negative version of the square root
         return a * -1
 
 
-print(principalsquareroot(-1))
-print(negativesquareroot(-1))
+print(principalsquareroot(10))  #
+#print(negativesquareroot(-1))
 
 '''
-improvement to this algo would be to check which mult 
+improvement to this algo 
+1) 10 caused the while satement to run 1000 times...need to find a solution
+    a) implemented b<=g to stop the loop from going over board 
 '''
