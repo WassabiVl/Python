@@ -3,5 +3,5 @@
   <component name="ProjectResources">
     <xml-schema-version>XMLSchema_1_1</xml-schema-version>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.2 (C:\Program Files\Python36\python.exe)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="Python 3.6 (software-engineering-ws17)" project-jdk-type="Python SDK" />
 </project>
