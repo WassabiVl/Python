@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2393413b-4f7c-4a88-99bc-ec30523a36f2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectEuler.Net/Ex2) Even Fibonacci numbers.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler.Net/ex1) Multiples of 3 and 5.py" afterPath="$PROJECT_DIR$/ProjectEuler.Net/ex1) Multiples of 3 and 5.py" />
       <change beforePath="$PROJECT_DIR$/mysort-better short bubble sort.py" afterPath="$PROJECT_DIR$/mysort-better short bubble sort.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -15,15 +17,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$SquareRoot___Exhaustive_search.coverage" NAME="SquareRoot - Exhaustive search Coverage Results" MODIFIED="1514225487960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$ex1__Multiples_of_3_and_5.coverage" NAME="ex1) Multiples of 3 and 5 Coverage Results" MODIFIED="1514225497524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProjectEuler.Net" />
+    <SUITE FILE_PATH="coverage/Python$Ex2__Even_Fibonacci_numbers.coverage" NAME="Ex2) Even Fibonacci numbers Coverage Results" MODIFIED="1514228601834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProjectEuler.Net" />
+    <SUITE FILE_PATH="coverage/Python$ex1__Multiples_of_3_and_5.coverage" NAME="ex1) Multiples of 3 and 5 Coverage Results" MODIFIED="1514225654629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProjectEuler.Net" />
+    <SUITE FILE_PATH="coverage/Python$mysort_better_short_bubble_sort.coverage" NAME="mysort-better short bubble sort Coverage Results" MODIFIED="1514225688553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mysort-better short bubble sort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysort-better short bubble sort.py">
+      <file leaf-file-name="Ex2) Even Fibonacci numbers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProjectEuler.Net/Ex2) Even Fibonacci numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -51,8 +55,9 @@
       <list>
         <option value="$PROJECT_DIR$/SquareRoot.py" />
         <option value="$PROJECT_DIR$/SquareRoot - Exhaustive search.py" />
-        <option value="$PROJECT_DIR$/ProjectEuler.Net/ex1) Multiples of 3 and 5.py" />
         <option value="$PROJECT_DIR$/mysort-better short bubble sort.py" />
+        <option value="$PROJECT_DIR$/ProjectEuler.Net/ex1) Multiples of 3 and 5.py" />
+        <option value="$PROJECT_DIR$/ProjectEuler.Net/Ex2) Even Fibonacci numbers.py" />
       </list>
     </option>
   </component>
@@ -127,7 +132,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex1) Multiples of 3 and 5">
+  <component name="RunManager" selected="Python.Ex2) Even Fibonacci numbers">
+    <configuration name="Ex2) Even Fibonacci numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler.Net" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler.Net/Ex2) Even Fibonacci numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="SquareRoot - Exhaustive search" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,15 +209,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <configuration name="mysort-better short bubble sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysort-better short bubble sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.SquareRoot - Exhaustive search" />
       <item index="1" class="java.lang.String" itemvalue="Python.SquareRoot" />
       <item index="2" class="java.lang.String" itemvalue="Python.ex1) Multiples of 3 and 5" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mysort-better short bubble sort" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Ex2) Even Fibonacci numbers" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.ex1) Multiples of 3 and 5" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SquareRoot" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Ex2) Even Fibonacci numbers" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mysort-better short bubble sort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ex1) Multiples of 3 and 5" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SquareRoot" />
       </list>
     </recent_temporary>
   </component>
@@ -210,12 +257,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503447301776</updated>
-      <workItem from="1514225312832" duration="303000" />
+      <workItem from="1514225312832" duration="2557000" />
     </task>
+    <task id="LOCAL-00001" summary="camelCase">
+      <created>1514225624927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514225624927</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303000" />
+    <option name="totallyTimeSpent" value="2557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -228,9 +283,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2806354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -260,6 +315,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="camelCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="camelCase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -464,14 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectEuler.Net/ex1) Multiples of 3 and 5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SquareRoot - Exhaustive search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -482,8 +533,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysort-better short bubble sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="321">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler.Net/ex1) Multiples of 3 and 5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectEuler.Net/Ex2) Even Fibonacci numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>

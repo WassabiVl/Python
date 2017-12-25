@@ -14,14 +14,14 @@ def myShortBubbleSort(aList):
                 temp = aList[i]
                 aList[i] = aList[i + 1]
                 aList[i + 1] = temp
-        for i in range(passNum - 1, x, -1):
-            if aList[i] > aList[i + 1]:
-                exchanges = True
-                temp = aList[i + 1]
-                aList[i + 1] = aList[i]
-                aList[i] = temp
-            x += 1
-    passNum = passNum - 1
+    for i in range(passNum - 1, x, -1):
+        if aList[i] > aList[i + 1]:
+            exchanges = True
+            temp = aList[i + 1]
+            aList[i + 1] = aList[i]
+            aList[i] = temp
+        x += 1
+        passNum = passNum - 1
 
 
 alist1 = [93, 54, 26, 62, 17, 77, 31, 44, 55, 20, 10]
